@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/makeCustomAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="makeCustomAnimation" />
+
+    <Button
+        android:id="@+id/makeScaleUpAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="makeScaleUpAnimation" />
+
+    <ImageView
+        android:id="@+id/makeThumbnailScaleUpAnimation"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/jm"
+        android:text="makeThumbnailScaleUpAnimation" />
+
+
+    <ImageView
+        android:id="@+id/makeSceneTransitionAnimation"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/jm"
+        android:text="makeSceneTransitionAnimation"
+        android:transitionName="img" />
+
+
+</LinearLayout>
